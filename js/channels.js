@@ -1,4 +1,9 @@
+//A click event listener is programmatically attached to the channel and calls switchChannel()
+//efficiently.
 
+//$( "#channels" ).click(function() {
+ // alert( "Handler for .click() called." );
+//});
 var yummy = {
     name: "#Yummy",
     createdOn: new Date(2016, 03, 01), /* month 0 is jan. */

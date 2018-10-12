@@ -1,4 +1,12 @@
 /* start the external action and say hello */
+/*#ready functions to initialize your #app */
+$(document).ready(function(){
+	listChannels(compareNew); 
+	loadEmojis();
+	
+	console.log( "App is initialized!" );
+
+});
 console.log("App is alive");
 
 /** #10 global #array of channels #arr*/
@@ -108,6 +116,13 @@ function loadEmojis() {
         $('#emojis').append(emojis[emoji] + " ");
     }
 }
+
+//myfunction() { 
+    //$("#emojis").click(function() {
+       
+	//$('#message').val($('#message').val() + $(this.html());
+   // }
+//});
 
 /**
  * This constructor function creates a new chat #message.
